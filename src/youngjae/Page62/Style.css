@@ -1,0 +1,204 @@
+.page-container {
+  width: 600px;
+  height: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 30px auto;
+  border: 1px solid transparent; /* 테두리를 투명하게 설정 */
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.page-title p {
+  background-color: rgba(255, 255, 0, 0.5);
+  padding: 1px 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.page-title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 35px;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.problem-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+
+.finish-button-container {
+  position: absolute;
+  bottom: -40px; 
+  left: 270px;
+  transform: translateX(-50%); 
+  z-index: 10; 
+}
+
+.finish-button {
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  border-color: gray;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.image {
+  margin-top : 26px;
+  width: 150px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: -10px;
+  width: 150px; 
+}
+
+.image-set {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Button-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%; 
+  left: 200px;
+}
+
+.Button-left-set {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.element-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  position: absolute; 
+  top: 176px;          
+  right: -40px;           
+}
+
+.color-button {
+  font-weight: 400;
+  font-size: 30px;
+  width: 50px;
+  height: 93px;
+  border: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: white;
+  transition: background-color 0.4s ease;
+  margin-bottom: 20px; 
+}
+
+.floor-button {
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  width: 150px;
+  height: 93px;
+  border: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid gray;
+  transition: background-color 0.4s ease;
+  margin-bottom: 19px; 
+}
+
+.page-title1 p {
+  background-color: rgba(0, 182, 30, 0.5);
+  color: white;
+  width: 35px;
+  font-weight: 900;
+  padding: 1px 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th1 {
+  background-color: #c5e1a5;
+  font-weight: bold;
+}
+
+th {
+  background-color: white;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: 15px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+td {
+  padding: 0;
+}
+
+th, td {
+  height: 50px;
+}
+
+.page-title .page-number {
+  top: 710px;
+  left: 535px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px; 
+  margin-top: 10px; 
+}

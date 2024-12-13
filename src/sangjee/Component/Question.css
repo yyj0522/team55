@@ -1,0 +1,40 @@
+.question-container {
+  position: relative;
+  width: 180px;
+  height: 60px;
+}
+
+.image {
+  display: block;
+  width: 250px;
+  height: 100%;
+  object-fit: contain;  
+}
+
+.induce {
+  position: absolute;
+  top: 53px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 90%;
+  padding-bottom: 15px;
+  font-family: 'MaruBuriSemiBold';
+}
+
+.explanation{
+  margin: 15px;
+}
+
+.redHighlight{
+  font-weight: bold;
+  color: rgb(206, 0, 0);
+}
+
+  @font-face {
+    font-family: 'MaruBuriSemiBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.ttf) format("truetype");
+  }
